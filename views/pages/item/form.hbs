@@ -1,0 +1,97 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="card card-primary card-outline">
+            <div class="card-header">
+                <h3 class="card-title">{{subtitle}}</h3>
+            </div>
+            <form id="form-data" class="card-body row" action="/admin/item/process">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="">Item Number <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="item-number" name="item-number" required="required" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="">Item Name <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="item-name" name="item-name" required="required" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="col-md-12"></div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="">Lotnumber <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="lotnumber" name="lotnumber" required="required" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="">Location <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="location" name="location" required="required" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="col-md-12"></div>
+
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Qty <span class="text-danger">*</span></label>
+                        <input type="nummber" class="form-control" id="qty" name="qty" required="required" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Unit <span class="text-danger">*</span></label>
+                        <select name="unit" id="unit" class="form-control" required="required" autocomplete="off">
+                            <option value="PCE">PCE</option>
+                            <option value="SET">SET</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-md-12"></div>
+
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Contract <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="contract" name="contract" required="required" autocomplete="off">
+                    </div>
+                </div>
+                
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Style <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="style" name="style" required="required" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Color <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="color" name="color" required="required" autocomplete="off">
+                    </div>
+                </div>
+                
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Size <span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="size" name="size" required="required" autocomplete="off">
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <button class="btn btn-primary"><i class="fa fa-check"></i> Save</button>
+                </div>
+            </form>
+        </div> 
+    </div>  
+</div>
+
+<script>
+    
+</script>
