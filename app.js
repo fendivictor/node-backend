@@ -26,6 +26,7 @@ mongoose.connect('mongodb+srv://fendivictor:o1wPXkDYDW93cfrK@clusterdb.1jykb.mon
 var todoListRoutes = require('./src/routes/todoListRoutes');
 var tripRoutes = require('./src/routes/tripRoutes');
 var adminRoutes = require('./src/routes/adminRoutes');
+var itemRoutes = require('./src/routes/itemRoutes');
 
 // App Instance
 var app = express();
@@ -42,6 +43,7 @@ app.use(bodyParser.json());
 app.use('/todo', todoListRoutes);
 app.use('/trip', tripRoutes);
 app.use('/admin', adminRoutes);
+app.use('/item', itemRoutes);
 
 // Execute App
 app.listen(port, () => {
