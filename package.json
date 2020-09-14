@@ -16,6 +16,7 @@
     "express-handlebars": "^5.1.0",
     "hbs": "^4.1.1",
     "mongoose": "^5.10.1",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "ovoid": "^1.2.1"
   }
 }

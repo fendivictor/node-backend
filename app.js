@@ -27,6 +27,7 @@ var todoListRoutes = require('./src/routes/todoListRoutes');
 var tripRoutes = require('./src/routes/tripRoutes');
 var adminRoutes = require('./src/routes/adminRoutes');
 var itemRoutes = require('./src/routes/itemRoutes');
+var ovoRoutes = require('./src/routes/ovoid');
 
 // App Instance
 var app = express();
@@ -44,6 +45,7 @@ app.use('/todo', todoListRoutes);
 app.use('/trip', tripRoutes);
 app.use('/admin', adminRoutes);
 app.use('/item', itemRoutes);
+app.use('/ovo', ovoRoutes);
 
 // Execute App
 app.listen(port, () => {
